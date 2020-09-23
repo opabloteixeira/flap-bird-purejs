@@ -1,0 +1,85 @@
+
+@font-face {
+   font-family: 'Pixel';
+   src: url('../font/Pixel.ttf');
+}
+
+@font-face {
+   font-family: 'Oswald';
+   src: url('../font/Oswald-Regular.ttf') format('truetype');
+}
+
+*{
+   box-sizing: border-box;
+   font-family: 'Oswald', sans-serif;
+}
+
+html {
+   height: 100%;
+}
+
+body {
+   margin: 0;
+   background-color: #feca57;
+   color: #ff6b6b;
+   height: 100%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   min-height: 100%;
+}
+
+[container-game] {
+   position: relative;
+   border: 5px solid #ff6b6b;
+   height: 700px;
+   width: 1200px;
+   margin: 15px;
+   background-color: #48dbfb;
+   overflow: hidden;
+}
+
+.bird {
+   position: absolute;
+   width: 60px;
+   left: calc(50% - 30px);
+}
+
+.pair-of-barriers {
+   position: absolute;
+   top: 0;
+   height: 100%;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+}
+
+.barrier {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.barrier .edge {
+   height: 30px;
+   width: 130px;
+   background: linear-gradient(90deg, #639301, #A5E82E);
+   border: 2px solid #000;
+}
+
+.barrier .corps{
+   height: 150px;
+   width: 110px;
+   background: linear-gradient(90deg, #639301, #A5E82E);
+   border-left: 2px solid #000;
+   border-right: 2px solid #000;
+}
+
+.progress {
+   position: absolute;
+   top: 10px;
+   right: 10px;
+   font-family: Pixel;
+   font-size: 70px;
+   z-index: 100;
+}
