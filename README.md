@@ -8,10 +8,12 @@
   <!-- <a target="blank" align="center" href="https://github-explorer-sigma.vercel.app/">click to access the project.</a> -->
 </h4>
   
-</br>
+
+<div align="center">
+    <img height=500 src="https://raw.githubusercontent.com/opabloteixeira/flap-bird-purejs/master/git-img/flap.png" />
+</div>
 
 
-![png1](git-img/flap.png)
 
 
 Made with ♥ by Pablo Teixeira :male_detective: [My Linkedin](https://www.linkedin.com/in/pablo-teixeira-30713777/)
