@@ -10,7 +10,7 @@
   
 
 <div align="center">
-    <img height=500 src="https://raw.githubusercontent.com/opabloteixeira/flap-bird-purejs/master/git-img/flap.png" />
+    <img height=400 src="https://raw.githubusercontent.com/opabloteixeira/flap-bird-purejs/master/git-img/flap.png" />
 </div>
 
 
