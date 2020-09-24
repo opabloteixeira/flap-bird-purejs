@@ -5,7 +5,7 @@
 
 <h4 align="center">
   Simple flappy bird game <br>
-  <!-- <a target="blank" align="center" href="https://github-explorer-sigma.vercel.app/">click to access the project.</a> -->
+    <a target="blank" align="center" href="https://flap-bird-purejs.vercel.app/">click to access the project.</a>
 </h4>
   
 
