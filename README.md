@@ -1,5 +1,5 @@
 <h1 align="center">
-    Flappy bird pure js
+    Flappy bird pure js.
 </h1>
 
 
